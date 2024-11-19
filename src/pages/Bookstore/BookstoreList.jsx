@@ -1,3 +1,5 @@
+import styles from "./Bookstore.module.css";
+
 export default function BookstoreList({data}) {
   return(
     <>

@@ -79,7 +79,7 @@ export default function Calculator({back}) {
         </div>
         <div className={styles.buttonCont}>
           <button className={styles.button} type="button" onClick={back}>Go back to menu</button>
-          <button className={`${styles.button} ${styles.calculate}`}>Calculate</button>
+          <button className={styles.button}>Calculate</button>
         </div>
       </form>
       {answer > 0 &&
