@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import Menu from './pages/Menu';
-import Calculator from './pages/Calculator';
-import Bookstore from './pages/Bookstore';
+import Menu from './pages/Menu/Menu';
+import Calculator from './pages/Calculator/Calculator';
+import Bookstore from './pages/Bookstore/Bookstore';
 
 function App() {
   const [screen,setScreen] = useState("menu");

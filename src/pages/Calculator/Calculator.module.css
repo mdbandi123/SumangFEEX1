@@ -1,0 +1,54 @@
+.mainCont{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerCont {
+  display: flex;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(156, 150, 144);
+  width: 50%;
+  height: 30%;
+  border-radius: 1em;
+  box-shadow: 1.5px 3px 0 rgba(152, 152, 152, 0.2); 
+  justify-content: space-evenly;
+}
+
+.inputCont {
+  display: flex;
+  padding: 0 3em;
+  gap: 1em;
+}
+
+.input {
+  flex:1;
+  padding: .4em 0;
+}
+
+.buttonCont {
+  display: flex;
+  gap: 1em;
+  padding: 0 3em;
+}
+
+.button {
+  flex:1;
+  padding: .2em;
+}
+
+.calculate {
+  background-color: rgb(194, 237, 194);
+}
+
+.errorInput {
+  border-color: red;
+  background-color: rgb(241, 196, 196);
+}

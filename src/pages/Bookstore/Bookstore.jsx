@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
-import BookstoreForm from "../components/BookstoreForm";
-import BookstoreList from "../components/BookstoreList";
+import BookstoreForm from "./BookstoreForm";
+import BookstoreList from "./BookstoreList";
 
 export default function Bookstore({back}){
   const [books, setBooks] = useState([]);
